@@ -100,14 +100,16 @@ func acceptRemote(cfg *Config, pc *peer.Conn) {
 		// 	continue
 		// }
 
-		switch route.Type {
-		case RouteTypeTCP, "":
-			acceptRemoteTCP(pc, port, remote)
-		case RouteTypeUDP:
-			acceptRemoteUDP(pc, port, remote)
-		default:
-			log.Fatal().Str("type", string(route.Type)).Msg("invalid route type")
-		}
+		// switch route.Type {
+		// case RouteTypeTCP, "":
+		// 	acceptRemoteTCP(pc, port, remote)
+		// case RouteTypeUDP:
+		// 	acceptRemoteUDP(pc, port, remote)
+		// default:
+		// 	log.Fatal().Str("type", string(route.Type)).Msg("invalid route type")
+		// }
+
+		acceptRemoteTCP(pc, port, remote)
 
 	}
 }
