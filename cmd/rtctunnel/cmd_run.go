@@ -61,8 +61,7 @@ func init() {
 					conn, err = peer.Open(cfg.KeyPair, peerPublicKey)
 					if err != nil {
 						log.Warn().Err(err).Msg("failed to open peer connection")
-					}
-					else {
+					} else {
 						peerConns[peerPublicKey] = conn
 					}
 				}
