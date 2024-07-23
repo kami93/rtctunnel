@@ -1,4 +1,4 @@
-module github.com/rtctunnel/rtctunnel
+module github.com/kami93/rtctunnel
 
 require (
 	github.com/google/uuid v1.6.0

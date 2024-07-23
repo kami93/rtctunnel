@@ -9,11 +9,11 @@ import (
 	"time"
 
 	"github.com/rs/zerolog/log"
-	"github.com/rtctunnel/rtctunnel/channels"
-	_ "github.com/rtctunnel/rtctunnel/channels/operator"
-	"github.com/rtctunnel/rtctunnel/crypt"
-	"github.com/rtctunnel/rtctunnel/peer"
-	"github.com/rtctunnel/rtctunnel/signal"
+	"github.com/kami93/rtctunnel/channels"
+	_ "github.com/kami93/rtctunnel/channels/operator"
+	"github.com/kami93/rtctunnel/crypt"
+	"github.com/kami93/rtctunnel/peer"
+	"github.com/kami93/rtctunnel/signal"
 	"github.com/spf13/cobra"
 )
 

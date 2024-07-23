@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/rtctunnel/rtctunnel/crypt"
+	"github.com/kami93/rtctunnel/crypt"
 	yaml "gopkg.in/yaml.v2"
 )
 

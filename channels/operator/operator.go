@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/rs/zerolog/log"
-	"github.com/rtctunnel/rtctunnel/channels"
+	"github.com/kami93/rtctunnel/channels"
 )
 
 func init() {

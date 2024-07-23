@@ -13,7 +13,7 @@ An overview of the application and how and why it was built is available here: [
 RTCTunnel can be installed via `go install`:
 
 ```bash
-go install github.com/rtctunnel/rtctunnel/cmd/rtctunnel@latest
+go install github.com/kami93/rtctunnel/cmd/rtctunnel@latest
 ```
 
 Or downloaded from the releases page (for linux).
@@ -56,7 +56,7 @@ rtctunnel run
 
 Typically it would be run in the background.
 
-A docker-compose example is available in [examples/redis](https://github.com/rtctunnel/rtctunnel/tree/master/examples/redis).
+A docker-compose example is available in [examples/redis](https://github.com/kami93/rtctunnel/tree/master/examples/redis).
 
 ## Configuration
 

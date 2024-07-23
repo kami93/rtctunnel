@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/rs/zerolog/log"
-	"github.com/rtctunnel/rtctunnel/crypt"
-	"github.com/rtctunnel/rtctunnel/ext/js/localstorage"
-	"github.com/rtctunnel/rtctunnel/peer"
+	"github.com/kami93/rtctunnel/crypt"
+	"github.com/kami93/rtctunnel/ext/js/localstorage"
+	"github.com/kami93/rtctunnel/peer"
 )
 
 const (
