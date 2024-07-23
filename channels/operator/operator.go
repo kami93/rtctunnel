@@ -16,7 +16,7 @@ import (
 
 func init() {
 	channels.RegisterFactory("operator", func(addr string) (channels.Channel, error) {
-		return New(strings.Replace(addr, "operator://", "https://", 1)), nil
+		return New(strings.Replace(addr, "operator://", "http://", 1)), nil
 	})
 }
 
